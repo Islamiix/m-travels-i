@@ -1,0 +1,164 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+
+
+/* Navbar */
+nav {
+    height: 70px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#text{
+    position: relative;
+    left: 450px;top: -20px;
+}
+
+
+/*Paiement*/
+  .container {
+    margin-top: 50px;
+  }
+  .card-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .card-body {
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  .btn-submit {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .btn-submit:hover {
+    background-color: #218838;
+  }
+  .form-check-label {
+    font-size: 1.1rem;
+  }
+
+
+   /* Footer container */
+.footer {
+  background-image: url('footer/f3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #272b2a;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.footer-left p {
+  font-size: 16px;
+  color: #d5e7e1;
+}
+
+.email-form {
+  display: flex;
+  gap: 10px;
+}
+
+.email-form input {
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 300px;
+}
+
+.email-form button {
+  background-color: #e67e22; /* Button color */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-right h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #e67e22;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #d8e3e1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #f39c12;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #d8e3e1;
+  font-size: 18px;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.footer-bottom, p{
+  color: #fff;
+}

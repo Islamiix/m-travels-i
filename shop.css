@@ -1,0 +1,137 @@
+/* Navbar */
+nav {
+    height: 70px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+}
+.imgbrand{
+    position: relative;
+    left: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff ;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+.nos{
+    color: #f39c12;
+  }
+  
+/* head Section */
+.head {
+    background-image: url(img/réservé.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.head-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content {
+    text-align: center;
+    color: white;
+}
+
+.head-content h1 {
+    font-size: 3.5rem;
+}
+
+.head-content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.head .btn-primary {
+    background-color: #f39c12;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+.head .btn-primary:hover {
+    background-color: #e67e22;
+}
+/* Container for the purchase section */
+#booking {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #f39c12;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 100px;
+}
+
+

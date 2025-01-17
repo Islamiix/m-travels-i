@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paiement</title>
+  <link rel="icon" type="image/png" href="image/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="paiement.css">
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+            <div class="container">
+                <a id="text" class="navbar-brand" href="index.html"><img class="imgbrand" src="image/logo.png" alt="" height="130px" width="130px" >M-TRAVELS-I  <strong> paiement</strong></a>
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+        
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            <strong>Informations de Paiement</strong>
+          </div>
+          <div class="card-body">
+            <form action="votre-backend" method="POST">
+              <!-- Informations personnelles -->
+              <h4 class="mb-4">Informations personnelles</h4>
+
+              <div class="form-group">
+                <label for="nom">Nom complet</label>
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Votre email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="telephone">Numéro de téléphone</label>
+                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Votre téléphone" required>
+              </div>
+
+              <!-- Adresse de livraison -->
+              <h4 class="mt-4 mb-4">Adresse de livraison</h4>
+
+              <div class="form-group">
+                <label for="adresse">Adresse</label>
+                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Votre adresse" required>
+              </div>
+
+              <div class="form-group">
+                <label for="ville">Ville</label>
+                <input type="text" class="form-control" id="ville" name="ville" placeholder="Votre ville" required>
+              </div>
+
+              <div class="form-group">
+                <label for="code_postal">Code postal</label>
+                <input type="text" class="form-control" id="code_postal" name="code_postal" placeholder="Votre code postal" required>
+              </div>
+
+              <div class="form-group">
+                <label for="pays">Pays</label>
+                <select class="form-select" id="pays" name="pays" required>
+                  <option value="" disabled selected>Choisir un pays</option>
+                  <option value="france">France</option>
+                  <option value="belgique">Belgique</option>
+                  <option value="suisse">Suisse</option>
+                  <option value="luxembourg">Luxembourg</option>
+                  <option value="Maroc">Maroc</option>
+                  <option value="Algerie">Algerie</option>
+                </select>
+              </div>
+
+              <!-- Informations de paiement -->
+              <h4 class="mt-4 mb-4">Informations de paiement</h4>
+
+              <div class="form-group">
+                <label for="carte_credit">Numéro de carte de crédit</label>
+                <input type="text" class="form-control" id="carte_credit" name="carte_credit" placeholder="1234 5678 1234 5678" required>
+              </div>
+
+              <div class="form-group">
+                <label for="date_expiration">Date d'expiration</label>
+                <input type="month" class="form-control" id="date_expiration" name="date_expiration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="cvv">Code CVV</label>
+                <input type="text" class="form-control" id="cvv" name="cvv" placeholder="123" required>
+              </div>
+
+              <!-- Consentement -->
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                <label class="form-check-label" for="terms">J'accepte les <a href="#">termes et conditions</a></label>
+              </div>
+
+              <!-- Bouton de soumission -->
+              <button type="submit" class="btn-submit mt-4">Passer la commande</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!--footer-->
+
+       <footer class="footer scroll mt-5">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Rejoignez l'équipe M-Travel-I !</h2>
+                <p>Recevez nos offres spéciales et dernières mises à jour en rejoignant notre liste de diffusion.</p>
+                <div class="email-form">
+                    <input type="email" placeholder="Entrez votre e-mail">
+                    <button>&#8594;</button><br>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Liens Utiles</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Qui sommes-nous</a></li>
+                    <li><a href="voyages.html">Nos Plans</a></li>
+                    <li><a href="shop.html">shopping</a></li>
+                </ul>
+                <div class="social-icons">
+                  <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://x.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="footer-bottom">
+                    <p>&copy; M-Travel-I 2024</p>
+                </div>
+    
+    </footer>
+
+</body>
+</html>
